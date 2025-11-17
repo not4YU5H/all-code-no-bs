@@ -41,7 +41,9 @@
 // 1 <= nums.length <= 105
 // -109 <= nums[i] <= 109
 
-class 217 {
+import java.util.HashSet;
+
+class LeetCode217 {
     public boolean containsDuplicate(int[] nums) {
         HashSet<Integer> encNums = new HashSet<>();
         for (int num : nums) {
